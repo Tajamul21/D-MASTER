@@ -31,7 +31,7 @@
 - **[May 5th 2024]** STaRK was reported on [Marketpost](https://www.marktechpost.com/2024/05/01/researchers-from-stanford-and-amazon-developed-stark-a-large-scale-semi-structure-retrieval-ai-benchmark-on-textual-and-relational-knowledge-bases/) and [智源社区 BAAI](https://hub.baai.ac.cn/paper/6841fd6f-1eca-41c4-a432-5f2d845ac167). Thanks for writing about our work!
 - **[Apr 21st 2024]** We release the STaRK benchmark.
 
-## What is STaRK?
+## What is D-MASTER?
 STaRK is a large-scale Semi-structured Retrieval Benchmark on Textual and Relational Knowledge bases, covering applications in product search, academic paper search, and biomedicine inquiries.
 
 Featuring diverse, natural-sounding, and practical queries that require context-specific reasoning, STaRK sets a new standard for assessing real-world retrieval systems driven by LLMs and presents significant challenges for future research.
@@ -58,6 +58,13 @@ requirements in queries.
 
     <figure class="center-figure"> <img src="media/questions.jpg" width="95%"></figure>  -->
 
+## What is RSBA-BSD1K data?
+STaRK is a large-scale Semi-structured Retrieval Benchmark on Textual and Relational Knowledge bases, covering applications in product search, academic paper search, and biomedicine inquiries.
+
+Featuring diverse, natural-sounding, and practical queries that require context-specific reasoning, STaRK sets a new standard for assessing real-world retrieval systems driven by LLMs and presents significant challenges for future research.
+
+
+🔥 Check out our [website](https://stark.stanford.edu/) for more overview!
 
 # Access benchmark data
 
