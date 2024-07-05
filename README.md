@@ -9,7 +9,7 @@
 
 <div align="left">
 
-[![](https://img.shields.io/badge/website-STaRK-purple?style=plastic&logo=Google%20chrome)](https://stark.stanford.edu/)
+[![](https://img.shields.io/badge/website-D-MASTER-purple?style=plastic&logo=Google%20chrome)](https://stark.stanford.edu/)
 [![](https://img.shields.io/badge/Dataset-yellow?style=plastic&logo=Hugging%20face)](https://huggingface.co/datasets/snap-stanford/stark)
 [![](https://img.shields.io/badge/SKB_Explorer-online-yellow?style=plastic&logo=Hugging%20face)](https://stark.stanford.edu/skb_explorer.html)
 [![](https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv)](https://arxiv.org/abs/2404.13207)
