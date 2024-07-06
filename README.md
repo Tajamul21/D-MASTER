@@ -20,11 +20,11 @@
 
 
 ## NEWS
-- **[July 2024]** We publicly release source code and pre-trained D-MASTER model weights!
+- **[July 2024]** We publicly release source code and pre-trained [D-MASTER](https://dmaster-iitd.github.io/webpage/) model weights!
 - **[Jun 2024]** D-MASTER is accepted in [MICCAI 2024](https://conferences.miccai.org/2024/en/) Congratulations to all the authors. See you all at [MICCAI 2024](https://conferences.miccai.org/2024/en/) under the Moroccan sun!
 - **[June 2024]** We released an arxiv version.. See more details in our [updated arxiv]()! 
 - **[June 2024]** We release [RSNA-BSD1K Dataset](),  a bounding box annotated subset of 1000 mammograms from the RSNA Breast Screening Dataset (referred to as RSNA-BSD1K) to support further research in BCDM!
-- **[May 2024]** We release the D-MASTER benchmark.
+- **[May 2024]** We release the [D-MASTER](https://dmaster-iitd.github.io/webpage/) benchmark.
 
 ## What is D-MASTER?
 D-MASTER is a transformer-based Domain-invariant Mask Annealed Student Teacher Autoencoder Framework for cross-domain breast cancer detection from mammograms (BCDM). It integrates a novel mask-annealing technique and an adaptive confidence refinement module. Unlike traditional pretraining with Mask Autoencoders (MAEs) that leverage massive datasets before fine-tuning on smaller datasets, D-MASTER introduces a novel learnable masking technique for the MAE branch. This technique generates masks of varying complexities, which are then reconstructed by the DefDETR encoder and decoder. By applying this self-supervised task on target images, our approach enables the encoder to acquire domain-invariant features and improve target representations.
