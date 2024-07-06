@@ -54,11 +54,11 @@ RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA 
 		└─ train
 		└─ val
 ```
-### 1.1 Put the dataset in `DATA_ROOT` folder.
+# 1.1 Put the dataset in the `DATA_ROOT` folder.
 
-### 1.2 Add rsna dataset in [datasets/coco_style_dataset.py](https://github.com/JeremyZhao1998/MRT-release/blob/main/datasets/coco_style_dataset.py)!
+## 1.2 Add rsna dataset in [datasets/coco_style_dataset.py](https://github.com/JeremyZhao1998/MRT-release/blob/main/datasets/coco_style_dataset.py)!
 
-### 1.3 Done! You can now use the dataset for training and evaluation.
+## 1.3 Done! You can now use the dataset for training and evaluation.
 
 
 ## 1. Installation
