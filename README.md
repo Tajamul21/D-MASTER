@@ -87,20 +87,17 @@ You can download the raw data from the official websites: [cityscapes](https://w
 	└─ annotations
 		└─ instances_train.json
 		└─ instances_val.json
-		└─ instances_test.json
 	└─ images
 		└─ train
 		└─ val
-		└─ test
 └─ ddsm
 	└─ annotations
 		└─ instances_train.json
 		└─ instances_val.json
-		└─ instances_test.json
+
 	└─ images
 		└─ train
 		└─ val
-		└─ test
 └─ rsna-bsk1k
 	└─ annotations
 		└─ instances_full.json
