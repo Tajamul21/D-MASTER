@@ -20,7 +20,7 @@
 
 
 ## NEWS
- **[July 2024]** We publicly release source code and pre-trained D-MASTER model weights!
+- **[July 2024]** We publicly release source code and pre-trained D-MASTER model weights!
 - **[Jun 2024]** D-MASTER is accepted in [MICCAI 2024](https://conferences.miccai.org/2024/en/) Congratulations to all the authors. See you all at [MICCAI 2024](https://conferences.miccai.org/2024/en/) under the Moroccan sun!
 - **[June 2024]** We released an arxiv version.. See more details in our [updated arxiv]()! 
 - **[June 2024]** We release [RSNA-BSD1K Dataset](),  a bounding box annotated subset of 1000 mammograms from the RSNA Breast Screening Dataset (referred to as RSNA-BSD1K) to support further research in BCDM!
