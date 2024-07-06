@@ -11,7 +11,7 @@
 
 [![](https://img.shields.io/badge/website-dmaster-purple)](https://dmaster-iitd.github.io/webpage/)
 [![](https://img.shields.io/badge/dataset-rsna1k-yellow)]()
-[![](https://img.shields.io/badge/SKB_Explorer-online-yellow?style=plastic&logo=Hugging%20face)](https://stark.stanford.edu/skb_explorer.html)
+[![](https://img.shields.io/badge/demo-hugginface-blue)]()
 [![](https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv)](https://arxiv.org/abs/2404.13207)
 [![](https://img.shields.io/badge/pip-stark--qa-brightgreen?style=plastic&logo=Python)](https://pypi.org/project/stark-qa/) 
 [![](https://img.shields.io/badge/doc-online-blue?style=plastic&logo=Read%20the%20Docs)](https://stark.stanford.edu/docs/index.html)
