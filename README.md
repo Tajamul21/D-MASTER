@@ -274,21 +274,20 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 
 
 
-## Reference 
+## 4. Citation
 
-Please consider citing our paper if you use our benchmark or code in your work:
+This repository is constructed and maintained by [Tajamul Ashraf](https://github.com/Tajamul21).
+
+If you find our paper or project useful, please cite our work in the following BibTeX:
+
 ```
-@article{wu24stark,
-    title        = {STaRK: Benchmarking LLM Retrieval on Textual and Relational Knowledge Bases},
-    author       = {
-        Shirley Wu and Shiyu Zhao and 
-        Michihiro Yasunaga and Kexin Huang and 
-        Kaidi Cao and Qian Huang and 
-        Vassilis N. Ioannidis and Karthik Subbian and 
-        James Zou and Jure Leskovec
-    },
-    eprinttype   = {arXiv},
-    eprint       = {2404.13207},
-  year           = {2024}
+@inproceedings{zhao2023masked,
+  title={Masked retraining teacher-student framework for domain adaptive object detection},
+  author={Zhao, Zijing and Wei, Sitong and Chen, Qingchao and Li, Dehui and Yang, Yifan and Peng, Yuxin and Liu, Yang},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={19039--19049},
+  year={2023}
 }
 ```
+
+Thanks for your attention.
