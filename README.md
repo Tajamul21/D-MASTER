@@ -98,7 +98,7 @@ You can download the raw data from the official websites: [cityscapes](https://w
 	└─ images
 		└─ train
 		└─ val
-└─ rsna-bsk1k
+└─ rsna-bsd1k
 	└─ annotations
 		└─ instances_full.json
 		└─ instances_val.json
@@ -163,7 +163,7 @@ sh configs/def-detr-base/city2foggy/evaluation.sh
 
 ## 3. Results and Model Parameters
 
-We conduct all experiments with batch size 8 (for source_only stage, 8 labeled samples; for cross_domain_mae and MRT teaching stage, 8 labeled samples and 8 unlabeled samples), on 2 NVIDIA A100 GPUs.
+We conduct all experiments with batch size 8 (for source_only stage, 8 labeled samples; for cross_domain_mae and MRT teaching stage, 8 labeled samples and 8 unlabeled samples), on 4 NVIDIA A100 GPUs.
 
 **inhouse2inbreast**: Inhouse → INBreast
 
