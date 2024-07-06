@@ -83,6 +83,31 @@ You can download the raw data from the official websites: [cityscapes](https://w
 
 ```bash
 [data_root]
+└─ inbreast
+	└─ annotations
+		└─ instances_train.json
+		└─ instances_val.json
+		└─ instances_test.json
+	└─ images
+		└─ train
+		└─ val
+		└─ test
+└─ ddsm
+	└─ annotations
+		└─ instances_train.json
+		└─ instances_val.json
+		└─ instances_test.json
+	└─ images
+		└─ train
+		└─ val
+		└─ test
+└─ rsna-bsk1k
+	└─ annotations
+		└─ instances_full.json
+		└─ instances_val.json
+	└─ images
+		└─ train
+		└─ val
 └─ cityscapes
 	└─ annotations
 		└─ cityscapes_train_cocostyle.json
@@ -117,12 +142,12 @@ To use additional datasets, you can edit [datasets/coco_style_dataset.py](https:
 
 As has been discussed in implementation details in the paper, to save computation cost, our method is designed as a three-stage paradigm. We first perform `source_only` training which is trained standardly by labeled source domain. Then, we perform `cross_domain_mae` to train the model with MAE branch. Finally, we perform `teaching` which utilize a teacher-student framework with MAE branch and selective retraining.
 
-For example, for `city2foggy` benchmark, first edit the files in `configs/def-detr-base/city2foggy/` to specify your own `DATA_ROOT` and `OUTPUT_DIR`, then run:
+For example, for `ddsm2inbreast` benchmark, first edit the files in `configs/def-detr-base/ddsm2inbreast/` to specify your own `DATA_ROOT` and `OUTPUT_DIR`, then run:
 
 ```bash
-sh configs/def-detr-base/city2foggy/source_only.sh
-sh configs/def-detr-base/city2foggy/cross_domain_mae.sh
-sh configs/def-detr-base/city2foggy/teaching.sh
+sh configs/def-detr-base/ddsm2inbreast/source_only.sh
+sh configs/def-detr-base/ddsm2inbreast/cross_domain_mae.sh
+sh configs/def-detr-base/ddsm2inbreast/teaching.sh
 ```
 
 We use `tensorboard` to record the loss and results. Run the following command to see the curves during training: 
