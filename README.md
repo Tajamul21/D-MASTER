@@ -39,9 +39,7 @@ RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA 
 
 🔥 Check out our released  [Dataset](https://dmaster-iitd.github.io/webpage/) for more details!
 
-# Access benchmark RSNA-BSD1K Dataset
-
-### 1. Download the data from [here](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing)
+# Access benchmark [RSNA-BSD1K](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing) Dataset
 
 - Structure
 
@@ -54,7 +52,7 @@ RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA 
 		└─ train
 		└─ val
 ```
-- Put the dataset in the `DATA_ROOT` folder.
+- Put the [dataset](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing) in the `DATA_ROOT` folder.
 
 - Add rsna dataset in [datasets/coco_style_dataset.py](https://github.com/JeremyZhao1998/MRT-release/blob/main/datasets/coco_style_dataset.py)!
 
