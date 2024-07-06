@@ -1,6 +1,6 @@
 
 <div align="center">
-<figure class="center-figure"> <img src="media/logo.png" width="85%"></figure>
+<figure class="center-figure"> <img src="images/architecture.png" width="85%"></figure>
 </div>
 
 <h1 align="left">
