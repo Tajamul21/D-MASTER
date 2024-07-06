@@ -39,7 +39,26 @@ RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA 
 
 🔥 Check out our released  [Dataset](https://dmaster-iitd.github.io/webpage/) for more details!
 
-# Access benchmark data
+# Access benchmark RSNA-BSD1K Dataset
+
+## 1. Download the data from [here](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing)
+
+### 1.1 Structure
+
+```bash
+- └─ rsna-bsd1k
+	└─ annotations
+		└─ instances_full.json
+		└─ instances_val.json
+	└─ images
+		└─ train
+		└─ val
+```
+### 1.1 Put the dataset in `DATA_ROOT` folder.
+
+### 1.2 Add rsna dataset in [datasets/coco_style_dataset.py](https://github.com/JeremyZhao1998/MRT-release/blob/main/datasets/coco_style_dataset.py)!
+
+### 1.3 Done! You can now use the dataset for training and evaluation.
 
 
 ## 1. Installation
@@ -79,7 +98,7 @@ We provide the 2 benchmarks in our paper:
 - sim2city: sim10k dataset is used as source domain, and cityscapes which only record AP of cars is used as target domain.
 - city2bdd: cityscapes dataset is used as source domain, and bdd100k-daytime is used as target domain.
 
-You can download the raw data from the official websites: [cityscapes](https://www.cityscapes-dataset.com/downloads/),  [foggy_cityscapes](https://www.cityscapes-dataset.com/downloads/),  [sim10k](https://fcav.engin.umich.edu/projects/driving-in-the-matrix), [bdd100k](https://bdd-data.berkeley.edu/). We provide the annotations that are converted into coco style, download from [here](https://drive.google.com/file/d/1LB0wK9kO3eW8jpR2ZtponmYWe9x2KSiU/view?usp=sharing) and organize the datasets and annotations as following:
+You can download the raw data from the official websites: [cityscapes](https://www.cityscapes-dataset.com/downloads/),  [foggy_cityscapes](https://www.cityscapes-dataset.com/downloads/),  [sim10k](https://fcav.engin.umich.edu/projects/driving-in-the-matrix), [bdd100k](https://bdd-data.berkeley.edu/). We provide the annotations that are converted into coco style, download from [here](https://drive.google.com/file/d/1LB0wK9kO3eW8jpR2ZtponmYWe9x2KSiU/view?usp=sharing) and organize the datasets and annotations as follows:
 
 ```bash
 [data_root]
