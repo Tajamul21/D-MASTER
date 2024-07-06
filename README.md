@@ -170,7 +170,7 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 | resnet50 | 6              | 6              | cross_domain_mae | 31.1  | [logs](https://drive.google.com/drive/folders/1PmP6sENzjjJH0vkGsQYJwYcjwfvBNVJe?usp=sharing) & [weights](https://drive.google.com/drive/folders/1PmP6sENzjjJH0vkGsQYJwYcjwfvBNVJe?usp=sharing) |
 | resnet50 | 6              | 6              | MRT teaching     | 33.7  | [logs](https://drive.google.com/drive/folders/1PmP6sENzjjJH0vkGsQYJwYcjwfvBNVJe?usp=sharing) & [weights](https://drive.google.com/drive/folders/1PmP6sENzjjJH0vkGsQYJwYcjwfvBNVJe?usp=sharing) |
 
-**ddsm2inbreast**: DDSM → INBreeast
+**ddsm2inbreast**: DDSM → INBreast
 
 | backbone | encoder layers | decoder layers | training stage   | R@0.3 | logs & weights                                               |
 | -------- | -------------- | -------------- | ---------------- | ----- | ------------------------------------------------------------ |
