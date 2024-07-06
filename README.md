@@ -34,33 +34,13 @@ D-MASTER is a transformer-based Domain-invariant Mask Annealed Student Teacher A
 
 
 🔥 Check out our [website](https://dmaster-iitd.github.io/webpage/) for more overview!
-<!-- 
-<figure class="center-figure">
-    <img src="media/overview.jpg" width="90%">
-</figure>
 
 
+## What is RSBA-BSD1K Data?
 
-## Why STaRK?
-- **Novel Task**: Recently, large language models have demonstrated significant potential on information retrieval tasks. Nevertheless, it remains an open
-question how effectively LLMs can handle the complex interplay between textual and relational
-requirements in queries.
+RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA Breast Screening Dataset, designed to support further research in breast cancer detection from mammograms (BCDM). The original RSNA dataset consists of 54,706 screening mammograms, containing 1,000 malignancies from 8,000 patients. From this, we curated RSNA-BSD1K, which includes 1,000 mammograms with 200 malignant cases, annotated at the bounding box level by two expert radiologists.
 
-- **Large-scale and Diverse KBs**: We provide three large-scale knowledge bases across three areas, which are constructed from public sources.
-
-    <figure class="center-figure"> <img src="media/kb.jpg" width="90%"></figure> 
-
-- **Natural-sounding and Practical Queries**: The queries in our benchmark are crafted to incorporate rich relational information and complex textual properties, and closely mirror questions in real-life scenarios, e.g., with flexible query formats and possibly with extra contexts.
-
-    <figure class="center-figure"> <img src="media/questions.jpg" width="95%"></figure>  -->
-
-## What is RSBA-BSD1K data?
-STaRK is a large-scale Semi-structured Retrieval Benchmark on Textual and Relational Knowledge bases, covering applications in product search, academic paper search, and biomedicine inquiries.
-
-Featuring diverse, natural-sounding, and practical queries that require context-specific reasoning, STaRK sets a new standard for assessing real-world retrieval systems driven by LLMs and presents significant challenges for future research.
-
-
-🔥 Check out our [website](https://stark.stanford.edu/) for more overview!
+🔥 Check out our released  [Dataset](https://dmaster-iitd.github.io/webpage/) for more details!
 
 # Access benchmark data
 
