@@ -186,17 +186,17 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 
 | backbone | encoder layers | decoder layers | training stage   | R@0.3 | logs & weights                                               |
 | -------- | -------------- | -------------- | ---------------- | ----- | ------------------------------------------------------------ |
-| resnet50 | 6              | 6              | source_only      | 29.5  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
-| resnet50 | 6              | 6              | cross_domain_mae | 35.8  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
-| resnet50 | 6              | 6              | MRT teaching     | 51.2  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
+| resnet50 | 6              | 6              | source_only      | 64.3  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
+| resnet50 | 6              | 6              | cross_domain_mae | 67.3  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
+| resnet50 | 6              | 6              | MRT teaching     | 71.9  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) |
 
 **inhouse2rsna**: Inhouse → RSNA-BSD1K
 
 | backbone | encoder layers | decoder layers | training stage   | R@0.3 | logs & weights                                               |
 | -------- | -------------- | -------------- | ---------------- | ----- | ------------------------------------------------------------ |
 | resnet50 | 6              | 6              | source_only      | 53.2  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/18vKJqqzNil95JnI2Lvp0XJcpQHtU40AE?usp=sharing) |
-| resnet50 | 6              | 6              | cross_domain_mae | 57.1  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/18vKJqqzNil95JnI2Lvp0XJcpQHtU40AE?usp=sharing) |
-| resnet50 | 6              | 6              | MRT teaching     | 62.0  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/18vKJqqzNil95JnI2Lvp0XJcpQHtU40AE?usp=sharing) |
+| resnet50 | 6              | 6              | cross_domain_mae | 54.6  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/18vKJqqzNil95JnI2Lvp0XJcpQHtU40AE?usp=sharing) |
+| resnet50 | 6              | 6              | MRT teaching     | 58.7  | [logs](https://drive.google.com/drive/folders/1VxlVdCAIRHGXkJXw0PyT9r_1HPSDhavP?usp=sharing) & [weights](https://drive.google.com/drive/folders/18vKJqqzNil95JnI2Lvp0XJcpQHtU40AE?usp=sharing) |
 
 **ddsm2inhouse**: DDSM → Inhouse
 
