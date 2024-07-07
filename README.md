@@ -37,7 +37,7 @@ D-MASTER is a transformer-based Domain-invariant Mask Annealed Student Teacher A
 
 RSNA-BSD1K is a bounding box annotated subset of 1,000 mammograms from the RSNA Breast Screening Dataset, designed to support further research in breast cancer detection from mammograms (BCDM). The original RSNA dataset consists of 54,706 screening mammograms, containing 1,000 malignancies from 8,000 patients. From this, we curated RSNA-BSD1K, which includes 1,000 mammograms with 200 malignant cases, annotated at the bounding box level by two expert radiologists.
 
-🔥 Check out our released  [Dataset](https://dmaster-iitd.github.io/webpage/) for more details!
+🔥 Check out our released  [Dataset](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing) for more details!
 
 ## Access benchmark RSNA-BSD1K Dataset
 
