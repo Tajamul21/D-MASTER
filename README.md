@@ -248,13 +248,7 @@ This repository is constructed and maintained by [Tajamul Ashraf](https://github
 If you find our paper or project useful, please cite our work in the following BibTeX:
 
 ```
-@inproceedings{zhao2023masked,
-  title={Masked retraining teacher-student framework for domain adaptive object detection},
-  author={Zhao, Zijing and Wei, Sitong and Chen, Qingchao and Li, Dehui and Yang, Yifan and Peng, Yuxin and Liu, Yang},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={19039--19049},
-  year={2023}
-}
+
 ```
 
 Thanks for your attention.
