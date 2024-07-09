@@ -14,4 +14,4 @@ CUDA_VISIBLE_DEVICES=0 python -u main.py \
 --mode eval \
 --output_dir ${OUTPUT_DIR} \
 --resume /Path/to/best teacher wts \
---csv True
+--csv False
