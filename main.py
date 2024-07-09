@@ -409,8 +409,6 @@ def eval_only(model, device):
         )
         print('Evaluation finished. mAPs: ' + str(ap50_per_class) + '. Evaluation loss: ' + str(epoch_loss_val))
     else:
-        print("CSV ARGS NOT WORKING !!!!")
-        exit()
         ap50_per_class, epoch_loss_val, coco_data = evaluate(
             model=model,
             criterion=criterion,
