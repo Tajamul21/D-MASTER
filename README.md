@@ -175,7 +175,12 @@ To evaluate the trained model and get the predicted results, run:
 ```bash
 sh configs/def-detr-base/city2foggy/evaluation.sh
 ```
-
+### 2.2.1 Inferencing on classification datasets
+If the model is adapated on a classification dataset, the predictions produced during inference will be stored in `./outputs/outputs.csv` file. To generate predictions set `--csv True` in the evalution.sh script and run:
+```bash
+sh configs/def-detr-base/mammo/evaluation.sh
+```
+The `./outputs/outputs.csv` file can be used further for computing the required metrics for the target classification dataset on which the model was adapted.
 
 
 ## 3. Results and Model Parameters
