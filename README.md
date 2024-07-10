@@ -251,7 +251,8 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 This repository is constructed and maintained by [Tajamul Ashraf](https://github.com/Tajamul21).
 
 If you find our paper or project useful, please cite our work in the following BibTeX:
-```@article{ashraf2024dmastermaskannealedtransformer,
+```
+@article{ashraf2024dmastermaskannealedtransformer,
         title={D-MASTER: Mask Annealed Transformer for Unsupervised Domain Adaptation in Breast Cancer Detection from Mammograms}, 
         author={Tajamul Ashraf and Krithika Rangarajan and Mohit Gambhir and Richa Gabha and Chetan Arora},
         year={2024},
