@@ -12,7 +12,7 @@
 [![](https://img.shields.io/badge/website-dmaster-purple)](https://dmaster-iitd.github.io/webpage/)
 [![](https://img.shields.io/badge/dataset-rsna1k-yellow)](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing)
 [![](https://img.shields.io/badge/demo-hugginface-blue)]()
-[![](https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv)]()
+[![](https://img.shields.io/badge/Arxiv-paper-red?style=plastic&logo=arxiv)](https://arxiv.org/abs/2407.06585v1)
 [![](https://img.shields.io/badge/-Linkedin-blue?style=plastic&logo=Linkedin)](https://www.linkedin.com/feed/update/urn:li:activity:7212622774970773504/) 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
@@ -22,7 +22,7 @@
 ## NEWS
 - **[July 2024]** We publicly release source code and pre-trained [D-MASTER](https://dmaster-iitd.github.io/webpage/) model weights!
 - **[Jun 2024]** D-MASTER is accepted in [MICCAI 2024](https://conferences.miccai.org/2024/en/) Congratulations to all the authors. See you all at [MICCAI 2024](https://conferences.miccai.org/2024/en/) under the Moroccan sun!
-- **[June 2024]** We released an arxiv version.. See more details in our [updated arxiv]()! 
+- **[June 2024]** We released an arxiv version.. See more details in our [updated arxiv](https://arxiv.org/abs/2407.06585v1)! 
 - **[June 2024]** We release [RSNA-BSD1K Dataset](https://drive.google.com/drive/folders/1GT_1mkL2L_xcEA14375VSci2vQBWDh_h?usp=sharing),  a bounding box annotated subset of 1000 mammograms from the RSNA Breast Screening Dataset (referred to as RSNA-BSD1K) to support further research in BCDM!
 - **[May 2024]** We release the [D-MASTER](https://dmaster-iitd.github.io/webpage/) benchmark.
 
@@ -251,6 +251,16 @@ We conduct all experiments with batch size 8 (for source_only stage, 8 labeled s
 This repository is constructed and maintained by [Tajamul Ashraf](https://github.com/Tajamul21).
 
 If you find our paper or project useful, please cite our work in the following BibTeX:
+
+'@article{ashraf2024dmastermaskannealedtransformer,
+        title={D-MASTER: Mask Annealed Transformer for Unsupervised Domain Adaptation in Breast Cancer Detection from Mammograms}, 
+        author={Tajamul Ashraf and Krithika Rangarajan and Mohit Gambhir and Richa Gabha and Chetan Arora},
+        year={2024},
+        eprint={2407.06585},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2407.06585}, 
+  }'
 
 ```
 
