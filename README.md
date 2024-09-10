@@ -180,7 +180,18 @@ If the model is adapated on a classification dataset, the predictions produced d
 ```bash
 sh configs/def-detr-base/mammo/evaluation.sh
 ```
-The `./outputs/outputs.csv` file can be used further for computing the required metrics for the target classification dataset on which the model was adapted.
+The `./outputs/outputs.csv` file can be used further for computing the required metrics for the target classification dataset on which the model was adapted. Then Run 
+
+```bash
+python match_id_csv_json.py
+```
+Finally Run
+
+```bash
+python eval_cview_csv.py
+```
+
+This will give you the TN, TP, FN, FP, AUC, and  NPV score, 
 
 
 ## 3. Results and Model Parameters
